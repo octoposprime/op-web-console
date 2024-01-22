@@ -1,2 +1,2 @@
-# docs
-OctopOS Prime Documentations
+# op-fe-console
+OctopOS Prime Frontend Console
