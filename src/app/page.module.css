@@ -5,8 +5,12 @@
   height: 100vh;          
 }
 
+
 .loginImg {
-  margin-right: 60px;
+  width: 320px;
+  height: 400px;
+  background: #dae1e85e;
+  border-radius: 20px;
 }
 
 .loginBackground {
@@ -14,7 +18,7 @@
 }
 
 .loginForm {
-  position: absolute; /* Absolut pozisyonlama */
+  position: fixed; /* Absolut pozisyonlama */
   top: 50%;          /* Üstten yarı yarıya */
   left: 27%;         /* Soldan yarı yarıya */
   transform: translate(-50%, -50%); /* Tam ortasına getir */
@@ -41,7 +45,7 @@
 
 .loginForm button {
   padding: 10px;
-  background-color: orange;
+  background-color: #14656b;
   color: white;
   border: none;
   cursor: pointer;
