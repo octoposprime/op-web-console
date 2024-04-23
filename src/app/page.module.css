@@ -10,15 +10,15 @@
 }
 
 .loginBackground {
-  position: relative; /* Pozisyon referansı */
+  position: relative;
 }
 
 .loginForm {
-  position: absolute; /* Absolut pozisyonlama */
-  top: 50%;          /* Üstten yarı yarıya */
-  left: 27%;         /* Soldan yarı yarıya */
-  transform: translate(-50%, -50%); /* Tam ortasına getir */
-  z-index: 100;      /* Z-index ile üstte tut */
+  position: absolute;
+  top: 50%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
   display: flex;
   flex-direction: column;
   gap: 10px;
