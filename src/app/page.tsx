@@ -11,7 +11,6 @@ export default function Home() {
         <Image src="/assets/loginBackground.svg" width={649} height={534} alt="background" />
       </div>
       <div className={styles.loginForm}>
-        {/* Form alanınızı burada oluşturabilirsiniz */}
         <form>
           <label htmlFor="email">Email</label>
           <input type="email" id="email" name="email" required />
